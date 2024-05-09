@@ -36,3 +36,7 @@ summary_model:
   model_name: gpt-3.5-turbo-0125
 tokenizer: openai
 vector_store: chroma
+evaluation :
+  bert_toxic_tokenizer : "unitary/toxic-bert"
+  bert_toxic_model : "unitary/toxic-bert"
+  semantic_similarity : "bert-base-nli-mean-tokens"
